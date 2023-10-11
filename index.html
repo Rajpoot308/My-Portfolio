@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-Website</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- <div id="wrapper"> -->
+    <div class="container">
+        <div class="navbar">
+            <div class="logo-container">
+                <img src="./images/userAsset/NavLogo.png" class="logo" />
+                <div class="logo-text"> <b>man Rajpoot</b></div>
+            </div>
+
+            <div class="nav-items">
+                <div><a href="#projects"> <b>Projects</b></a></div>
+                <div><a href="#skills"> <b>Skills</b></a></div>
+                <div><a href="#contactme"><b>Contact Me</b></a></div>
+            </div>
+        </div>
+
+        <div class="hero-section">
+            <div class="faded-text">Aman Rajpoot</div>
+            <div class="hero-section-left">
+                <div class="hero-section-heading"> <b>Hello</b> </div>
+
+                <div class="hero-section-heading hero-section-sub-heading">
+                    <b>I am a </b> <span class="role"></span>
+                </div>
+
+                <div class="hero-section-description">
+                    <b> Motivated final year undergraduate student. Passionate about web
+                        development and Programming. Here are my portfolio to showcasing
+                        my skills.</b>
+                </div>
+
+                <a href="https://drive.google.com/file/d/15gkJwMWtGNxMS3s5Ku7QDFExYXtXIoul/view?usp=sharing"
+                    id="submit-btn" target="_blank" class="btn-pink">
+                    Hire Me
+                </a>
+            </div>
+            <div class="hero-section-right">
+                <div class="absolute icons icon-dots">
+                    <img src="./images/userAsset/dots.png" alt="" />
+                </div>
+                <div class="absolute icons icon-cube">
+                    <img src="./images/userAsset/cube.png" alt="" />
+                </div>
+                <div class="absolute icons icon-circle">
+                    <img src="./images/userAsset/circle.png" alt="" />
+                </div>
+                <div class="absolute icons icon-zigzag">
+                    <img src="./images/userAsset/zigzags.png" alt="" />
+                </div>
+                <div class="absolute icons icon-plus">
+                    <img src="./images/userAsset/plus.png" alt="" />
+                </div>
+                <div class="user-image">
+                    <img src="./images/userAsset/UserImage.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-section" id="projects">
+        <h2 class="page-header">Projects</h2>
+
+        <div class="project-container">
+            <div class="project-card" id="project1">
+                <div class="project-number project-number-right">01</div>
+                <div class="project-content project-content-left">
+                    <div class="project-skills-container">
+                        <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                        <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                        <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                    </div>
+
+                    <h2 class="project-heading">Randome Password Generator</h2>
+
+                    <p class="project-subHeading">
+                        the simple web app for generating secure random passwords:
+                        Customize password length Add numbers, characters, or special
+                        characters Copy passwords with ease No stored passwords for
+                        complete privacy
+                    </p>
+                    <div class="btn-grp">
+                        <a target="_blank" href=" https://rajpoot308.github.io/Random-password-generator/"
+                            class="btn-pink btn-project">
+                            Live Project</a>
+                        <a target="_blank" href=" https://github.com/Rajpoot308/Random-password-generator">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                        </a>
+                        <!-- <a href="">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" id="project2">
+                <div class="project-number project-number-left">02</div>
+                <div class="project-content project-content-right">
+                    <div class="project-skill-container" id="tictac">
+                        <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                        <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                        <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                    </div>
+                    <h2 id="tictac" class="project-heading">X & O Challenge</h2>
+                    <p class="project-sub-heading" id="tictac">
+                        X & O Challenge is, a classic and simple two-player game, is played on
+                        a 3x3 grid. Players take turns marking X or O in empty cells,
+                        aiming to form a vertical, horizontal, or diagonal line. The
+                        first to achieve this wins, while a full board with no lines
+                        results in a draw
+                    </p>
+                    <div id="tictac" class="btn-group">
+                        <a target="_blank" href="https://rajpoot308.github.io/X-O-Challenge/"
+                            class="btn-pink btn-project">Live Project</a>
+                        <a href="https://github.com/Rajpoot308/X-O-Challenge" target="_blank">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" id="project3">
+                <div class="project-number project-number-right">03</div>
+                <div class="project-content project-content-left">
+                    <div class="project-skill-container">
+                        <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                        <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                        <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+
+                        <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+
+                    </div>
+
+                    <h2 class="project-heading">Monsoon forcast</h2>
+                    <p class="project-sub-heading">
+                        User-friendly weather app! Get real-time updates
+                        based on your location or search any area on the map. Hourly forecasts, weather maps, alerts,
+                        and more. Stay prepared!"
+                    </p>
+                    <div class="btn-group">
+                        <a target="_blank" href="https://rajpoot308.github.io/Monsoon-Application/"
+                            class="btn-pink btn-project">Live project</a>
+                        <a target="_blank" href="https://github.com/Rajpoot308/Monsoon-Application">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" id="project4">
+                <div class="project-number project-number-left">04</div>
+                <div class="project-content project-content-right">
+                    <div class="project-skill-container" id="tictac">
+                        <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                        <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                        <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                        <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+
+                    </div>
+                    <h2 class="project-heading" id="tictac">Devloper Scanner</h2>
+                    <p class="project-sub-heading" id="tictac">
+                        Meet "Devloper Detection" - the ultimate GitHub exploration tool! Easily find anyone's GitHub
+                        data using their username in
+                        a single search. Enjoy light and dark window modes for
+                        a comfortable browsing experience. Discover, connect, and stay in control with devloper
+                        detection.
+                    </p>
+                    <div class="btn-group" id="tictac">
+                        <a target="_blank" href="https://rajpoot308.github.io/Developer--Detection/"
+                            class="btn-pink btn-project">Live project</a>
+                        <a target="_blank" href="https://github.com/Rajpoot308/Developer--Detection">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="project-card" id="project3">
+            <div class="project-number project-number-right">05</div>
+            <div class="project-content project-content-left">
+              <div class="project-skill-container">
+                <img
+                  class="project-skill"
+                  src="./images/stack/HTML.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/CSS.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Javascript.svg"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/NextJsCircle.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Tailwind.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/Vercel.svg"
+                  alt=""
+                />
+              </div>
+
+              <h2 class="project-heading">Isha Tattva</h2>
+              <p class="project-sub-heading">
+                A Website for interior designer to showcase her works and
+                samples
+              </p>
+              <div class="btn-group">
+                <button class="btn-pink btn-project">Read More</button>
+                <a href="">
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a href="">
+                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+              </div>
+            </div>
+          </div> -->
+        </div>
+    </div>
+
+    <div id="skills" class="container skills-container">
+        <div class="skill-fade-text">Skills</div>
+
+        <div class="skill-container-left">
+            <h2 class="skill-heading">
+                <span class="caps">M</span>e and
+                <br />
+                MyTech Stack
+            </h2>
+
+            <div class="skill-subHeading">
+                <p>
+
+                    I'm Aman Rajpoot, a web developer with a diverse skill set encompassing <b>HTML, CSS,
+                        JavaScript, React.js, Node.js, MongoDB, Material-UI,
+                        and Tailwind CSS. '</b>
+                    My passion for coding drives me to craft captivating and user-friendly web experiences that leave a
+                    lasting impact on users.
+                </p>
+                <p>
+                    Curiosity fuels my journey in technology, and I'm constantly exploring new horizons. Currently,
+                    <b>I'm diving into the exciting realms of deep learning and artificial intelligence</b>, eager to
+                    integrate these cutting-edge concepts into my development projects
+                </p>
+                <p>
+                    I firmly believe in the power of technology to bring about positive change. With this conviction, I
+                    am committed to building tech solutions that empower businesses, streamline processes, and elevate
+                    user experiences
+                </p>
+            </div>
+        </div>
+
+        <div class="skill-container-right">
+            <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
+
+            <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
+            <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
+            <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/React.png" alt="" class="skills-logo" />
+            <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
+            <!-- <img src="./images/stack/Next.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Redux.svg" alt="" class="skills-logo" /> -->
+            <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
+            <!-- <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" /> -->
+            <img src="./images/stack/MaterialUI.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Express.png" alt="" class="skills-logo" />
+            <!-- <img src="./images/stack/Git.svg" alt="" class="skills-logo" /> -->
+            <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
+            <!-- <img src="./images/stack/Graphql.svg" alt="" class="skills-logo" /> -->
+            <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
+            <!-- <img src="./images/stack/Vercel.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/ChartJs.svg" alt="" class="skills-logo" />
+          <img src="./images/stack/Bash.svg" alt="" class="skills-logo" /> -->
+            <!-- <img src="./images/stack/Docker.svg" alt="" class="skills-logo" /> -->
+            <!-- <img src="./images/stack/K8s.svg" alt="" class="skills-logo" /> -->
+        </div>
+    </div>
+
+    <div class="contactus-form-container" id="contactme">
+        <div class="container">
+            <h1 class="contactus-heading">Contact Me</h1>
+            <h3 class="contactus-sub-heading">
+                Questions, thoughts, or just want to say hello?
+            </h3>
+            <div class="contactus-form-container">
+                <form class="form" action="https://formspree.io/f/xwkdaled" method="POST" target="_blank">
+                    <div class="formfield-container">
+                        <input class="formfield" type="text" name="name" id="" placeholder="Enter your name" \ />
+                        <input class="formfield" type="email" name="email" id="email"
+                            placeholder="Enter your email address" \ />
+                        <input class="formfield" type="text" name="subject" id="" placeholder="Enter your subject" \ />
+                        <textarea name="message" id=" " cols="30" rows="10" class="formfield formfield-textarea"
+                            placeholder="Enter your message" \></textarea>
+                        <button type="submit" class="btn-pink" id="submit-btn" target="_blank">
+                            Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-fadded-text">Aman Rajpoot</div>
+                <div class="link-wrapper">
+                    <div>
+                        <a href="#projects">Projects</a>
+                    </div>
+                    <div>
+                        <a href="#skills">Skills</a>
+                    </div>
+                    <div>
+                        <a href="#contactme">Contact Me</a>
+                    </div>
+                </div>
+
+                <div class="icon-wrapper">
+                    <a target="_blank" href="https://www.linkedin.com/in/amanrajpoot308/"
+                        class="fa-brands fa-linkedin icon"></a>
+                    <a target="_blank" href="https://github.com/Rajpoot308" class="fa-brands fa-github icon"></a>
+
+                    <a target="_blank" href="https://www.instagram.com/rajputaman777/?hl=en"
+                        class="fa-brands fa-instagram icon"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- </div> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Full Stack Developer",
+                "Web Developer",
+                "Tech Enthuiast",
+                "Entrepreneur",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+
+    t>
+</body>
+
+</html>
